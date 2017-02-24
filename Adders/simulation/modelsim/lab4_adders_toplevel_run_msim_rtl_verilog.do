@@ -1,0 +1,12 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -sv -work work +incdir+E:/ece385-master/Adders {E:/ece385-master/Adders/ripple_adder.sv}
+vlog -sv -work work +incdir+E:/ece385-master/Adders {E:/ece385-master/Adders/HexDriver.sv}
+vlog -sv -work work +incdir+E:/ece385-master/Adders {E:/ece385-master/Adders/full_adder.sv}
+vlog -sv -work work +incdir+E:/ece385-master/Adders {E:/ece385-master/Adders/lab4_adders_toplevel.sv}
+

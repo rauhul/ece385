@@ -1,0 +1,423 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/rmathur2/ece385/LC3/simulation/modelsim
+valu
+Z1 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+Z2 !s110 1475434593
+!i10b 1
+!s100 Zkh@JU?0mOjcXh11W@cg82
+IfOo8VTTUhE61z@Xm]z6lR0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 alu_sv_unit
+S1
+R0
+Z4 w1475426564
+8C:/Users/rmathur2/ece385/LC3/alu.sv
+FC:/Users/rmathur2/ece385/LC3/alu.sv
+L0 1
+Z5 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z6 !s108 1475434593.000000
+!s107 C:/Users/rmathur2/ece385/LC3/alu.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/rmathur2/ece385/LC3|C:/Users/rmathur2/ece385/LC3/alu.sv|
+!i113 1
+Z7 o-sv -work work
+Z8 !s92 -sv -work work +incdir+C:/Users/rmathur2/ece385/LC3
+vbus
+R1
+R2
+!i10b 1
+!s100 Ya9ab_CPVndZn?d]dGISP3
+I5j@^T4a9HW98eCWLW6Yc]2
+R3
+!s105 bus_sv_unit
+S1
+R0
+w1475427367
+8C:/Users/rmathur2/ece385/LC3/bus.sv
+FC:/Users/rmathur2/ece385/LC3/bus.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/rmathur2/ece385/LC3/bus.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/rmathur2/ece385/LC3|C:/Users/rmathur2/ece385/LC3/bus.sv|
+!i113 1
+R7
+R8
+vHexDriver
+R1
+R2
+!i10b 1
+!s100 ZMIfn:zQ3F77:eSjM1U910
+I^3ZOd0o=b`39IB5B4YZ=o0
+R3
+!s105 HexDriver_sv_unit
+S1
+R0
+R4
+8C:/Users/rmathur2/ece385/LC3/HexDriver.sv
+FC:/Users/rmathur2/ece385/LC3/HexDriver.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/rmathur2/ece385/LC3/HexDriver.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/rmathur2/ece385/LC3|C:/Users/rmathur2/ece385/LC3/HexDriver.sv|
+!i113 1
+R7
+R8
+n@hex@driver
+vISDU
+R1
+R2
+!i10b 1
+!s100 hP?;^=DOZ==8LFRQAjmzU2
+IzmfQ73DPYllFkESN7dBj52
+R3
+!s105 ISDU_sv_unit
+S1
+R0
+w1475434570
+8C:/Users/rmathur2/ece385/LC3/ISDU.sv
+FC:/Users/rmathur2/ece385/LC3/ISDU.sv
+L0 17
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/rmathur2/ece385/LC3/ISDU.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/rmathur2/ece385/LC3|C:/Users/rmathur2/ece385/LC3/ISDU.sv|
+!i113 1
+R7
+R8
+n@i@s@d@u
+vMem2IO
+R1
+R2
+!i10b 1
+!s100 DYBLV41:Edf2CS4mll=3B2
+IBa?^7Ge6`X`nYdP^3LDWZ1
+R3
+!s105 Mem2IO_sv_unit
+S1
+R0
+R4
+8C:/Users/rmathur2/ece385/LC3/Mem2IO.sv
+FC:/Users/rmathur2/ece385/LC3/Mem2IO.sv
+Z9 L0 15
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/rmathur2/ece385/LC3/Mem2IO.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/rmathur2/ece385/LC3|C:/Users/rmathur2/ece385/LC3/Mem2IO.sv|
+!i113 1
+R7
+R8
+n@mem2@i@o
+vmux_2x1
+R1
+R2
+!i10b 1
+!s100 iBIG90jI@C><k>Tj>d2oi2
+IX0SPdT:=j:`Maad2LG?::2
+R3
+Z10 !s105 mux_sv_unit
+S1
+R0
+Z11 w1475427443
+Z12 8C:/Users/rmathur2/ece385/LC3/mux.sv
+Z13 FC:/Users/rmathur2/ece385/LC3/mux.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+Z14 !s107 C:/Users/rmathur2/ece385/LC3/mux.sv|
+Z15 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/rmathur2/ece385/LC3|C:/Users/rmathur2/ece385/LC3/mux.sv|
+!i113 1
+R7
+R8
+vmux_2x16
+R1
+R2
+!i10b 1
+!s100 CniYI^N5ZVOjUQOk4TVOS2
+I6io<?IHJMYQN6SAB?W[I33
+R3
+R10
+S1
+R0
+R11
+R12
+R13
+L0 29
+R5
+r1
+!s85 0
+31
+R6
+R14
+R15
+!i113 1
+R7
+R8
+vmux_2x3
+R1
+R2
+!i10b 1
+!s100 >4@>Ti9>W<R;O:@CzNA^]3
+IPicI]@OA062MDV2f?;i1`1
+R3
+R10
+S1
+R0
+R11
+R12
+R13
+R9
+R5
+r1
+!s85 0
+31
+R6
+R14
+R15
+!i113 1
+R7
+R8
+vmux_4x16
+R1
+R2
+!i10b 1
+!s100 D<XBhTFzbc[oBQKIC<Gc^1
+IE:hb:FGb6No`TiUUoT;cA0
+R3
+R10
+S1
+R0
+R11
+R12
+R13
+L0 43
+R5
+r1
+!s85 0
+31
+R6
+R14
+R15
+!i113 1
+R7
+R8
+vregister_1
+R1
+R2
+!i10b 1
+!s100 Im:ZOA2oHUZC;bogA;idP0
+IV=:K7OgV2mLh[f5::J4a:2
+R3
+Z16 !s105 register_sv_unit
+S1
+R0
+Z17 w1475427983
+Z18 8C:/Users/rmathur2/ece385/LC3/register.sv
+Z19 FC:/Users/rmathur2/ece385/LC3/register.sv
+L0 16
+R5
+r1
+!s85 0
+31
+R6
+Z20 !s107 C:/Users/rmathur2/ece385/LC3/register.sv|
+Z21 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/rmathur2/ece385/LC3|C:/Users/rmathur2/ece385/LC3/register.sv|
+!i113 1
+R7
+R8
+vregister_16
+R1
+R2
+!i10b 1
+!s100 m6;ga8IZ=Q_N;a3[;b]IP3
+I5dm9FPES?bhzD`]cJKanG0
+R3
+R16
+S1
+R0
+R17
+R18
+R19
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R20
+R21
+!i113 1
+R7
+R8
+vregister_unit_8x16
+R1
+R2
+!i10b 1
+!s100 NWV:4z4GZ_4EFb>:kiJj72
+IYSGKh1?65YOdAGcGj^[Ii0
+R3
+R16
+S1
+R0
+R17
+R18
+R19
+L0 31
+R5
+r1
+!s85 0
+31
+R6
+R20
+R21
+!i113 1
+R7
+R8
+vslc3
+R1
+R2
+!i10b 1
+!s100 3T@A;M3;ljJdm7Z>K99Y63
+IfOMa<m8iozCk=I9mX4?DS0
+R3
+!s105 slc3_sv_unit
+S1
+R0
+w1475430144
+8C:/Users/rmathur2/ece385/LC3/slc3.sv
+FC:/Users/rmathur2/ece385/LC3/slc3.sv
+L0 18
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/rmathur2/ece385/LC3/slc3.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/rmathur2/ece385/LC3|C:/Users/rmathur2/ece385/LC3/slc3.sv|
+!i113 1
+R7
+R8
+XSLC3_2
+R1
+R2
+!i10b 1
+!s100 YOGG]fo2<@5h3`@;QJ5JE3
+IODJaN>Z??16cl<WC7M`GZ1
+VODJaN>Z??16cl<WC7M`GZ1
+S1
+R0
+R4
+8C:/Users/rmathur2/ece385/LC3/SLC3_2.sv
+Z22 FC:/Users/rmathur2/ece385/LC3/SLC3_2.sv
+L0 23
+R5
+r1
+!s85 0
+31
+R6
+Z23 !s107 C:/Users/rmathur2/ece385/LC3/SLC3_2.sv|C:/Users/rmathur2/ece385/LC3/test_memory.sv|
+Z24 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/rmathur2/ece385/LC3|C:/Users/rmathur2/ece385/LC3/test_memory.sv|
+!i113 1
+R7
+R8
+n@s@l@c3_2
+vtest_memory
+R1
+Z25 DXx4 work 6 SLC3_2 0 22 ODJaN>Z??16cl<WC7M`GZ1
+DXx4 work 19 test_memory_sv_unit 0 22 I2JlTSz<A2jV`^;d6@8:F3
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 M1jh@6^W1FNi=[]CmTZ<i0
+Ii^c`U?2WV07L9dE35@3T:1
+!s105 test_memory_sv_unit
+S1
+R0
+Z26 w1475434150
+Z27 8C:/Users/rmathur2/ece385/LC3/test_memory.sv
+Z28 FC:/Users/rmathur2/ece385/LC3/test_memory.sv
+L0 27
+R5
+R6
+R23
+R24
+!i113 1
+R7
+R8
+Xtest_memory_sv_unit
+R1
+R25
+VI2JlTSz<A2jV`^;d6@8:F3
+r1
+!s85 0
+31
+!i10b 1
+!s100 Zi]jDP2jP:l?TW71T[Abn2
+II2JlTSz<A2jV`^;d6@8:F3
+!i103 1
+S1
+R0
+R26
+R27
+R28
+R22
+L0 25
+R5
+R6
+R23
+R24
+!i113 1
+R7
+R8
+vtristate
+R1
+R2
+!i10b 1
+!s100 :;h^4ZYEM=9ZB`7g8Y6XC0
+Ii5PkeKDNT3_FgiiKKV95V3
+R3
+!s105 tristate_sv_unit
+S1
+R0
+w1475426565
+8C:/Users/rmathur2/ece385/LC3/tristate.sv
+FC:/Users/rmathur2/ece385/LC3/tristate.sv
+L0 12
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/rmathur2/ece385/LC3/tristate.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/rmathur2/ece385/LC3|C:/Users/rmathur2/ece385/LC3/tristate.sv|
+!i113 1
+R7
+R8

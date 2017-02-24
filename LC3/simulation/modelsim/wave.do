@@ -1,0 +1,53 @@
+restart -a
+wave create -driver freeze -pattern clock -initialvalue 0 -period 20ns -dutycycle 50 -starttime 0ns -endtime 4000ns sim:/slc3/Clk 
+
+wave create -driver freeze -pattern constant -value 1 -starttime 0ns -endtime 4000ns sim:/slc3/Reset 
+wave modify -driver freeze -pattern constant -value 0 -starttime 0ns -endtime   40ns Edit:/slc3/Reset 
+
+wave create -driver freeze -pattern constant -value 1 -starttime 0ns -endtime 4000ns sim:/slc3/Run 
+wave modify -driver freeze -pattern constant -value 0 -starttime 50ns -endtime  90ns Edit:/slc3/Run 
+
+wave create -driver freeze -pattern constant -value 1 -starttime 0ns -endtime 4000ns sim:/slc3/Continue
+
+add wave -position end  sim:/slc3/LD_BEN
+add wave -position end -color gold sim:/slc3/REG_BEN_OUT
+add wave -position end  sim:/slc3/LD_CC
+add wave -position end -color gold sim:/slc3/REG_N_OUT
+add wave -position end -color gold sim:/slc3/REG_Z_OUT
+add wave -position end -color gold sim:/slc3/REG_P_OUT
+add wave -position end  sim:/slc3/LD_IR
+add wave -position end  sim:/slc3/REG_IR_OUT
+add wave -position end  sim:/slc3/LD_PC
+add wave -position end  sim:/slc3/REG_PC_OUT
+add wave -position end  sim:/slc3/LD_MAR
+add wave -position end  sim:/slc3/REG_MAR_OUT
+add wave -position end  sim:/slc3/LD_MDR
+add wave -position end  sim:/slc3/REG_MDR_OUT
+add wave -position end  sim:/slc3/state_controller/State
+add wave -position end  sim:/slc3/LD_REG
+add wave -position end  sim:/slc3/LD_LED
+
+add wave -position end  sim:/slc3/BUS
+add wave -position end  sim:/slc3/GatePC
+add wave -position end  sim:/slc3/GateMDR
+add wave -position end  sim:/slc3/GateALU
+add wave -position end  sim:/slc3/GateMAR
+
+add wave -position end  sim:/slc3/REG_FILE/r0_data
+add wave -position end  sim:/slc3/REG_FILE/r1_data
+add wave -position end  sim:/slc3/REG_FILE/r2_data
+add wave -position end  sim:/slc3/REG_FILE/r3_data
+add wave -position end  sim:/slc3/REG_FILE/r4_data
+add wave -position end  sim:/slc3/REG_FILE/r5_data
+add wave -position end  sim:/slc3/REG_FILE/r6_data
+add wave -position end  sim:/slc3/REG_FILE/r7_data
+
+add wave -position end  sim:/slc3/REG_FILE/r0_load
+add wave -position end  sim:/slc3/REG_FILE/r1_load
+add wave -position end  sim:/slc3/REG_FILE/r2_load
+add wave -position end  sim:/slc3/REG_FILE/r3_load
+add wave -position end  sim:/slc3/REG_FILE/r4_load
+add wave -position end  sim:/slc3/REG_FILE/r5_load
+add wave -position end  sim:/slc3/REG_FILE/r6_load
+add wave -position end  sim:/slc3/REG_FILE/r7_load
+run -a

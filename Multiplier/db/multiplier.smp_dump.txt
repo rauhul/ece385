@@ -1,0 +1,10 @@
+
+State Machine - |multiplier|control:control_unit|curr_state
+Name curr_state.S_Shift curr_state.S_Subtract curr_state.S_Add curr_state.S_Prep curr_state.S_ClearALoadB curr_state.S_Reset curr_state.S_Init 
+curr_state.S_Init 0 0 0 0 0 0 0 
+curr_state.S_Reset 0 0 0 0 0 1 1 
+curr_state.S_ClearALoadB 0 0 0 0 1 0 1 
+curr_state.S_Prep 0 0 0 1 0 0 1 
+curr_state.S_Add 0 0 1 0 0 0 1 
+curr_state.S_Subtract 0 1 0 0 0 0 1 
+curr_state.S_Shift 1 0 0 0 0 0 1 

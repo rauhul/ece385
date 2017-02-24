@@ -1,0 +1,68 @@
+# Reading C:/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
+# do lab4_adders_toplevel_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -sv -work work +incdir+E:/ece385-master/Adders {E:/ece385-master/Adders/ripple_adder.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 19:28:46 on Sep 20,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/ece385-master/Adders" E:/ece385-master/Adders/ripple_adder.sv 
+# -- Compiling module ripple_adder
+# 
+# Top level modules:
+# 	ripple_adder
+# End time: 19:28:46 on Sep 20,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+E:/ece385-master/Adders {E:/ece385-master/Adders/HexDriver.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 19:28:46 on Sep 20,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/ece385-master/Adders" E:/ece385-master/Adders/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 19:28:46 on Sep 20,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+E:/ece385-master/Adders {E:/ece385-master/Adders/full_adder.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 19:28:46 on Sep 20,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/ece385-master/Adders" E:/ece385-master/Adders/full_adder.sv 
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+# End time: 19:28:46 on Sep 20,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+E:/ece385-master/Adders {E:/ece385-master/Adders/lab4_adders_toplevel.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 19:28:46 on Sep 20,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/ece385-master/Adders" E:/ece385-master/Adders/lab4_adders_toplevel.sv 
+# -- Compiling module lab4_adders_toplevel
+# 
+# Top level modules:
+# 	lab4_adders_toplevel
+# End time: 19:28:46 on Sep 20,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.lab4_adders_toplevel
+# vsim -gui "+altera" -l msim_transcript -do "lab4_adders_toplevel_run_msim_rtl_verilog.do" 
+# Start time: 19:29:04 on Sep 20,2016
+# Loading sv_std.std
+# Loading work.lab4_adders_toplevel
+# Loading work.ripple_adder
+# Loading work.full_adder
+# Loading work.HexDriver
+# ** Warning: (vsim-3015) E:/ece385-master/Adders/ripple_adder.sv(14): [PCDPC] - Port size (1) does not match connection size (32) for port 'z'. The port definition is at: E:/ece385-master/Adders/full_adder.sv(5).
+# 
+#         Region: /lab4_adders_toplevel/ripple_adder_inst/FA0
+# End time: 19:29:17 on Sep 20,2016, Elapsed time: 0:00:13
+# Errors: 0, Warnings: 1

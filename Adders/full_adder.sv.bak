@@ -1,0 +1,10 @@
+module FULL_ADDER 
+(
+	input A, B, C_In,
+	output Sum, C_Out
+);
+	
+assign S = A^B^C_IN;
+assign C_Out = (A & B) | (A & C_In) | (B & C_In);
+
+endmodule

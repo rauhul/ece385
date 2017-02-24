@@ -1,0 +1,18 @@
+// AES module interface with all ports, commented for Week 1
+module  AES ( input  [127:0]  Plaintext,
+                              Cipherkey,
+              input           Clk,
+                              Reset,
+                              Run,
+              output [127:0]  Ciphertext,
+              output          Ready  );
+
+    logic [0:1407] keyschedule;
+
+    KeyExpansion keyexpansion_0( .clk, .Cipherkey(Cipherkey), .KeySchedule(keyschedule));
+
+
+
+
+
+endmodule

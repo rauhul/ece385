@@ -1,0 +1,228 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/ece385-master/8BitLogicProcessor/simulation/modelsim
+vcompute
+Z1 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+Z2 !s110 1474417375
+!i10b 1
+!s100 alk1LO5Go2CggS6@DV_8M0
+IJdO32WM=OKl;Kg7JOl8DP2
+Z3 V`JN@9S9cnhjKRR_L]QIcM3
+!s105 compute_sv_unit
+S1
+R0
+Z4 w1473728732
+8E:/ece385-master/8BitLogicProcessor/compute.sv
+FE:/ece385-master/8BitLogicProcessor/compute.sv
+L0 1
+Z5 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1474417375.965000
+!s107 E:/ece385-master/8BitLogicProcessor/compute.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/ece385-master/8BitLogicProcessor|E:/ece385-master/8BitLogicProcessor/compute.sv|
+!i113 1
+Z6 o-sv -work work
+Z7 !s92 -sv -work work +incdir+E:/ece385-master/8BitLogicProcessor
+vcontrol
+R1
+R2
+!i10b 1
+!s100 F3UX>k^dl^lhUYk4jhW_>2
+ImcXX<4eJ1VJY;QA^<OUXo2
+R3
+!s105 Control_sv_unit
+S1
+R0
+w1473772916
+8E:/ece385-master/8BitLogicProcessor/Control.sv
+FE:/ece385-master/8BitLogicProcessor/Control.sv
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1474417375.722000
+!s107 E:/ece385-master/8BitLogicProcessor/Control.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/ece385-master/8BitLogicProcessor|E:/ece385-master/8BitLogicProcessor/Control.sv|
+!i113 1
+R6
+R7
+vHexDriver
+R1
+R2
+!i10b 1
+!s100 UH7P[dTK1gbKnd]=kl[zQ3
+IgYm:c@dE?z`Xofk?mka]V0
+R3
+!s105 HexDriver_sv_unit
+S1
+R0
+w1473728724
+8E:/ece385-master/8BitLogicProcessor/HexDriver.sv
+FE:/ece385-master/8BitLogicProcessor/HexDriver.sv
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1474417375.597000
+!s107 E:/ece385-master/8BitLogicProcessor/HexDriver.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/ece385-master/8BitLogicProcessor|E:/ece385-master/8BitLogicProcessor/HexDriver.sv|
+!i113 1
+R6
+R7
+n@hex@driver
+vProcessor
+R1
+Z8 !s110 1474417377
+!i10b 1
+!s100 XgCf<8_JN`dgY0i@odVbo3
+I5]EQTb7O]4T5N1A9ElT9]0
+R3
+!s105 Processor_sv_unit
+S1
+R0
+w1473729062
+8E:/ece385-master/8BitLogicProcessor/Processor.sv
+FE:/ece385-master/8BitLogicProcessor/Processor.sv
+L0 6
+R5
+r1
+!s85 0
+31
+!s108 1474417377.071000
+!s107 E:/ece385-master/8BitLogicProcessor/Processor.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/ece385-master/8BitLogicProcessor|E:/ece385-master/8BitLogicProcessor/Processor.sv|
+!i113 1
+R6
+R7
+n@processor
+vreg_8
+R1
+Z9 !s110 1474417376
+!i10b 1
+!s100 WWdzR03@C^9b3oUm=RkLo0
+IU06<]@b^:kWZK9kIhSJO03
+R3
+!s105 Reg_8_sv_unit
+S1
+R0
+w1473728726
+8E:/ece385-master/8BitLogicProcessor/Reg_8.sv
+FE:/ece385-master/8BitLogicProcessor/Reg_8.sv
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1474417376.199000
+!s107 E:/ece385-master/8BitLogicProcessor/Reg_8.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/ece385-master/8BitLogicProcessor|E:/ece385-master/8BitLogicProcessor/Reg_8.sv|
+!i113 1
+R6
+R7
+vregister_unit
+R1
+R9
+!i10b 1
+!s100 2ffML3jhY4aCKKX2f;m:<1
+Ibg>_5]<JCikMD]]O:l[ba1
+R3
+!s105 Register_unit_sv_unit
+S1
+R0
+Z10 w1473728730
+8E:/ece385-master/8BitLogicProcessor/Register_unit.sv
+FE:/ece385-master/8BitLogicProcessor/Register_unit.sv
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1474417376.727000
+!s107 E:/ece385-master/8BitLogicProcessor/Register_unit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/ece385-master/8BitLogicProcessor|E:/ece385-master/8BitLogicProcessor/Register_unit.sv|
+!i113 1
+R6
+R7
+vrouter
+R1
+R2
+!i10b 1
+!s100 ]S2VA?P3gi<Om=AC6U3903
+IS?ZNknO?zaRNQ7z:6612N2
+R3
+!s105 Router_sv_unit
+S1
+R0
+R10
+8E:/ece385-master/8BitLogicProcessor/Router.sv
+FE:/ece385-master/8BitLogicProcessor/Router.sv
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1474417375.152000
+!s107 E:/ece385-master/8BitLogicProcessor/Router.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/ece385-master/8BitLogicProcessor|E:/ece385-master/8BitLogicProcessor/Router.sv|
+!i113 1
+R6
+R7
+vsync
+R1
+R9
+!i10b 1
+!s100 6l^a2LHNX6<ZF[J3zA0cX1
+I2?m@IPAaTmf=<OZGz@Ql[1
+R3
+!s105 sync_sv_unit
+S1
+R0
+w1473775142
+8E:/ece385-master/8BitLogicProcessor/sync.sv
+FE:/ece385-master/8BitLogicProcessor/sync.sv
+L0 2
+R5
+r1
+!s85 0
+31
+!s108 1474417376.330000
+!s107 E:/ece385-master/8BitLogicProcessor/sync.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/ece385-master/8BitLogicProcessor|E:/ece385-master/8BitLogicProcessor/sync.sv|
+!i113 1
+R6
+R7
+vtestbench_8
+R1
+R8
+!i10b 1
+!s100 Nfo6@=LCR<nCAg4?FMb[z2
+I6R5Kj=JhBUbEb0gOMACcT0
+R3
+!s105 testbench_8_sv_unit
+S1
+R0
+R4
+8E:/ece385-master/8BitLogicProcessor/testbench_8.sv
+FE:/ece385-master/8BitLogicProcessor/testbench_8.sv
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1474417377.299000
+!s107 E:/ece385-master/8BitLogicProcessor/testbench_8.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/ece385-master/8BitLogicProcessor|E:/ece385-master/8BitLogicProcessor/testbench_8.sv|
+!i113 1
+R6
+R7

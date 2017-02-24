@@ -1,0 +1,20 @@
+module bus (
+    input  logic        GatePC, GateMDR, GateALU, GateMAR,
+    input  logic [15:0] PC, MDR, ALU, MAR,
+    output logic [15:0] BusValue
+);
+
+    always_comb begin
+        assert(GatePC + GateMDR + GateALU + GateMARMUX < 2) else $error("Bus Overload");
+        if (GatePC)
+            BusValue = PC;
+        else if(GateMDR)
+            BusValue = MDR;
+        else if(GateALU)
+            BusValue = ALU;
+        else if(GateMAR)
+            BusValue = MAR;
+        else
+            BusValue = 16'b?;
+    end
+endmodule

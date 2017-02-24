@@ -1,0 +1,15 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -sv -work work +incdir+I:/NEW_MULTIPLIER {I:/NEW_MULTIPLIER/ripple_adder.sv}
+vlog -sv -work work +incdir+I:/NEW_MULTIPLIER {I:/NEW_MULTIPLIER/reg_8.sv}
+vlog -sv -work work +incdir+I:/NEW_MULTIPLIER {I:/NEW_MULTIPLIER/HexDriver.sv}
+vlog -sv -work work +incdir+I:/NEW_MULTIPLIER {I:/NEW_MULTIPLIER/full_adder.sv}
+vlog -sv -work work +incdir+I:/NEW_MULTIPLIER {I:/NEW_MULTIPLIER/counter.sv}
+vlog -sv -work work +incdir+I:/NEW_MULTIPLIER {I:/NEW_MULTIPLIER/control.sv}
+vlog -sv -work work +incdir+I:/NEW_MULTIPLIER {I:/NEW_MULTIPLIER/multiplier.sv}
+

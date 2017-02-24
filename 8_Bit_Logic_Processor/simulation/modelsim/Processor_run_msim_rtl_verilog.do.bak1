@@ -1,0 +1,16 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -sv -work work +incdir+E:/ece385-master/8BitLogicProcessor {E:/ece385-master/8BitLogicProcessor/Synchronizers.sv}
+vlog -sv -work work +incdir+E:/ece385-master/8BitLogicProcessor {E:/ece385-master/8BitLogicProcessor/Router.sv}
+vlog -sv -work work +incdir+E:/ece385-master/8BitLogicProcessor {E:/ece385-master/8BitLogicProcessor/HexDriver.sv}
+vlog -sv -work work +incdir+E:/ece385-master/8BitLogicProcessor {E:/ece385-master/8BitLogicProcessor/Control.sv}
+vlog -sv -work work +incdir+E:/ece385-master/8BitLogicProcessor {E:/ece385-master/8BitLogicProcessor/compute.sv}
+vlog -sv -work work +incdir+E:/ece385-master/8BitLogicProcessor {E:/ece385-master/8BitLogicProcessor/Reg_8.sv}
+vlog -sv -work work +incdir+E:/ece385-master/8BitLogicProcessor {E:/ece385-master/8BitLogicProcessor/Register_unit.sv}
+vlog -sv -work work +incdir+E:/ece385-master/8BitLogicProcessor {E:/ece385-master/8BitLogicProcessor/Processor.sv}
+

@@ -1,0 +1,92 @@
+Assembler report for lab4_adders_toplevel
+Tue Sep 20 20:43:53 2016
+Quartus II 64-Bit Version 15.0.0 Build 145 04/22/2015 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Assembler Summary
+  3. Assembler Settings
+  4. Assembler Generated Files
+  5. Assembler Device Options: E:/ece385-master/Adders/output_files/lab4_adders_toplevel.sof
+  6. Assembler Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus II License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++---------------------------------------------------------------+
+; Assembler Summary                                             ;
++-----------------------+---------------------------------------+
+; Assembler Status      ; Successful - Tue Sep 20 20:43:53 2016 ;
+; Revision Name         ; lab4_adders_toplevel                  ;
+; Top-level Entity Name ; lab4_adders_toplevel                  ;
+; Family                ; Cyclone IV E                          ;
+; Device                ; EP4CE115F29C7                         ;
++-----------------------+---------------------------------------+
+
+
++----------------------------------+
+; Assembler Settings               ;
++--------+---------+---------------+
+; Option ; Setting ; Default Value ;
++--------+---------+---------------+
+
+
++---------------------------------------------------------------+
+; Assembler Generated Files                                     ;
++---------------------------------------------------------------+
+; File Name                                                     ;
++---------------------------------------------------------------+
+; E:/ece385-master/Adders/output_files/lab4_adders_toplevel.sof ;
++---------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------+
+; Assembler Device Options: E:/ece385-master/Adders/output_files/lab4_adders_toplevel.sof ;
++----------------+------------------------------------------------------------------------+
+; Option         ; Setting                                                                ;
++----------------+------------------------------------------------------------------------+
+; Device         ; EP4CE115F29C7                                                          ;
+; JTAG usercode  ; 0x005803A1                                                             ;
+; Checksum       ; 0x005803A1                                                             ;
++----------------+------------------------------------------------------------------------+
+
+
++--------------------+
+; Assembler Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Assembler
+    Info: Version 15.0.0 Build 145 04/22/2015 SJ Web Edition
+    Info: Processing started: Tue Sep 20 20:43:46 2016
+Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off lab4_adders_toplevel -c lab4_adders_toplevel
+Info (115031): Writing out detailed assembly data for power analysis
+Info (115030): Assembler is generating device programming files
+Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 633 megabytes
+    Info: Processing ended: Tue Sep 20 20:43:54 2016
+    Info: Elapsed time: 00:00:08
+    Info: Total CPU time (on all processors): 00:00:04
+
+

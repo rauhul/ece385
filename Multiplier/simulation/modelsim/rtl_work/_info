@@ -1,0 +1,179 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dI:/NEW_MULTIPLIER/simulation/modelsim
+vcontrol
+Z1 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+Z2 !s110 1474385567
+!i10b 1
+!s100 eK>dkQPF:QCiYQMfGC[e30
+IijZV_VW41`;1Rak50T98o0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 control_sv_unit
+S1
+R0
+w1474385494
+8I:/NEW_MULTIPLIER/control.sv
+FI:/NEW_MULTIPLIER/control.sv
+L0 1
+Z4 OV;L;10.4d;61
+r1
+!s85 0
+31
+!s108 1474385567.000000
+!s107 I:/NEW_MULTIPLIER/control.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+I:/NEW_MULTIPLIER|I:/NEW_MULTIPLIER/control.sv|
+!i113 1
+Z5 o-sv -work work
+Z6 !s92 -sv -work work +incdir+I:/NEW_MULTIPLIER
+vcounter
+R1
+R2
+!i10b 1
+!s100 Rd_I=hzT1Hb1dBTV2b4dO0
+IU]KcPZneWH5g8[G9lR0Xl2
+R3
+!s105 counter_sv_unit
+S1
+R0
+w1474379000
+8I:/NEW_MULTIPLIER/counter.sv
+FI:/NEW_MULTIPLIER/counter.sv
+L0 1
+R4
+r1
+!s85 0
+31
+Z7 !s108 1474385566.000000
+!s107 I:/NEW_MULTIPLIER/counter.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+I:/NEW_MULTIPLIER|I:/NEW_MULTIPLIER/counter.sv|
+!i113 1
+R5
+R6
+vfull_adder
+R1
+Z8 !s110 1474385566
+!i10b 1
+!s100 E;`KDBOJ;f3B>5Qg_]F@;0
+IHEE`KDn67i<nURXQV9_dK1
+R3
+!s105 full_adder_sv_unit
+S1
+R0
+Z9 w1474239762
+8I:/NEW_MULTIPLIER/full_adder.sv
+FI:/NEW_MULTIPLIER/full_adder.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R7
+!s107 I:/NEW_MULTIPLIER/full_adder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+I:/NEW_MULTIPLIER|I:/NEW_MULTIPLIER/full_adder.sv|
+!i113 1
+R5
+R6
+vHexDriver
+R1
+R8
+!i10b 1
+!s100 =R2i165HPJgkY;aA[TRmG3
+IDd2OP0oBN<;S;E8zi33@I1
+R3
+!s105 HexDriver_sv_unit
+S1
+R0
+R9
+8I:/NEW_MULTIPLIER/HexDriver.sv
+FI:/NEW_MULTIPLIER/HexDriver.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R7
+!s107 I:/NEW_MULTIPLIER/HexDriver.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+I:/NEW_MULTIPLIER|I:/NEW_MULTIPLIER/HexDriver.sv|
+!i113 1
+R5
+R6
+n@hex@driver
+vmultiplier
+R1
+!s110 1474385568
+!i10b 1
+!s100 `<V016e2ggT;FLi@@8mk>1
+I`6KKc[=h[>YK7OCj[BnmB0
+R3
+!s105 multiplier_sv_unit
+S1
+R0
+w1474385478
+8I:/NEW_MULTIPLIER/multiplier.sv
+FI:/NEW_MULTIPLIER/multiplier.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1474385568.000000
+!s107 I:/NEW_MULTIPLIER/multiplier.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+I:/NEW_MULTIPLIER|I:/NEW_MULTIPLIER/multiplier.sv|
+!i113 1
+R5
+R6
+vreg_8
+R1
+Z10 !s110 1474385564
+!i10b 1
+!s100 hU5:Riad9[3J2>^LmLz>W2
+Ia@Fo9hD0`VTQS:<CjNMEL3
+R3
+!s105 reg_8_sv_unit
+S1
+R0
+R9
+8I:/NEW_MULTIPLIER/reg_8.sv
+FI:/NEW_MULTIPLIER/reg_8.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1474385564.000000
+!s107 I:/NEW_MULTIPLIER/reg_8.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+I:/NEW_MULTIPLIER|I:/NEW_MULTIPLIER/reg_8.sv|
+!i113 1
+R5
+R6
+vripple_adder
+R1
+R10
+!i10b 1
+!s100 59OYNB:fFjWdNEckOI7^K1
+I@P]bok7nNNZGEZTmBndb`1
+R3
+!s105 ripple_adder_sv_unit
+S1
+R0
+w1474383698
+8I:/NEW_MULTIPLIER/ripple_adder.sv
+FI:/NEW_MULTIPLIER/ripple_adder.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1474385563.000000
+!s107 I:/NEW_MULTIPLIER/ripple_adder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+I:/NEW_MULTIPLIER|I:/NEW_MULTIPLIER/ripple_adder.sv|
+!i113 1
+R5
+R6
