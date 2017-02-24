@@ -1,0 +1,26 @@
+# macOS files
+.DS_Store
+
+# quartus files
+.bak*
+.dpf*
+.qsf*
+.qws*
+.qpf*
+.qdf*
+.a
+.bsp
+.mk
+.gdb
+.html
+.o
+.d
+.cmp
+.bsf
+.xml
+.ammdb
+.cmp*
+.cbd
+.hbd
+.logdb
+.*db*
